@@ -8,7 +8,8 @@ Basic personal website to play around technologies and express my work and life.
 
 ## To do List
 
-- [ ] Fix assets path
+- [x] Fix assets path
+- [ ] Fix Blog
 - [ ] Set Custom Domain
 - [ ] Add a library for Test (Jest??)
 - [ ] Write some tests
