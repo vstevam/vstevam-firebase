@@ -1,0 +1,38 @@
+<%- include('_header') %>
+<!-- Main -->
+<div id="main" class="wrapper style1">
+	<div class="container">
+		<header class="major">
+			<h2>Blog</h2>
+			<p>Thoughts that I had time to write down</p>
+		</header>
+
+		<!-- Content -->
+		<section id="content">
+			<% articles.forEach(function(article) { %>
+			<div>
+				<h2 class="align-center">
+					<a href="<%= article.url %>">
+						<%= article.title %>
+					</a>
+				</h2>
+				<div id="textbox">
+					<!-- <p class="align-left"><%= article.dc_creator %></p> -->
+					<p class="align-right"><%= article.pubDate %></p>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+
+			<% if (article.content_encoded) { %>
+			<%- article.content_encoded %>
+			<% } else { %>
+			<%- article.description %>
+			<% } %>
+			<div class="blog-content-end"></div>
+			<% }) %>
+
+		</section>
+
+	</div>
+</div>
+<%- include('_footer') %>

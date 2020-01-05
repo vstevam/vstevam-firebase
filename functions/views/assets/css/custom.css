@@ -1,0 +1,63 @@
+/* Custom CSS */
+
+#family {
+    background-image: url("../../images/family.jpg");
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Tags */
+.w3-red, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+.w3-center {
+    text-align: center!important;
+}
+.w3-round-large {
+    border-radius: 8px;
+}
+.w3-badge, .w3-tag {
+    background-color: #000;
+    color: #fff;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Chart */
+#chartdiv {
+    width: 100%;
+    height:600px;
+  }
+
+/* Blog */
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+.align-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.blog-content-end {
+    background: #e44c65;
+    content: '';
+    display: inline-block;
+    height: 0.2em;
+    max-width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
