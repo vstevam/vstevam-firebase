@@ -20,7 +20,7 @@
     "fs": "0.0.1-security",
     "harp": "^0.31.0",
     "node-cache": "^5.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "path": "^0.12.7",
     "rss-to-json": "^1.0.5"
   },
