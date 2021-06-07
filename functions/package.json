@@ -18,7 +18,7 @@
     "firebase-admin": "^8.6.0",
     "firebase-functions": "^3.3.0",
     "fs": "0.0.1-security",
-    "harp": "^0.31.0",
+    "harp": "^0.40.3",
     "node-cache": "^5.1.0",
     "node-fetch": "^2.6.0",
     "path": "^0.12.7",
